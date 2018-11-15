@@ -1,0 +1,26 @@
+{
+  "name": "macos-key-listener",
+  "version": "1.0.0",
+  "description": "Listen for macOS key press events",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarshallOfSound/macos-keypress-hook"
+  },
+  "keywords": [
+    "electron",
+    "keypress"
+  ],
+  "author": "Samuel Attard",
+  "devDependencies": {
+    "nan": "2.8.0",
+    "node-gyp": "3.7.0"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
